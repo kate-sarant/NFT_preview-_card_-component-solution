@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+  :root{
+
+  /* colors: */
+  --Cyan: hsl(178, 100%, 50%);
+  --Soft_blue: hsl(215, 51%, 70%);
+  /* fonts: */
+  --Fontfamily:'Outfit', sans-serif;
+  --fontSize:18px;
+  /* body */
+  /* ### Neutral */
+
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+
+  }
+
+  body{
+  background-color: var(--mainBG);
+  font-family: var(--Fontfamily);
+  }
+  .title{
+  font-weight: 600;
+  font-size: 23px;
+  }
+  .afterTitle{
+  width: 80%;
+  text-align: initial;
+  margin: 0 auto;
+  position: relative;
+  left: -15px;
+  font-size: var(--fontSize);
+  }
+  section{
+  position: relative;
+  top: 13vh;
+  margin: 0 auto;
+  width: 36vw;
+  background-color: grey;
+  text-align: center;
+  width: 19em;
+  border-radius: 12px;
+  background-color: var(--cardBG);
+  }
+  img{
+  width: 84%;
+  margin-top: 22px;
+  border-radius: 8px;
+  }
+  .title{
+  color:var(--White);
+  font-weight: 700;
+  }
+  .afterTitle{
+  color:var(--Soft_blue);
+  }
+  footer{
+  position: absolute;
+  bottom: 0;
+  }
+  .img{
+  width: 84%;
+  color: white;
+  font-weight: 300;
+  position: relative;
+  top: -20px;
+  padding-bottom: 13px;
+  }
+  #avatar{
+  width: 27px;;
+  border-style: solid;
+  border-color: white;
+  border-radius: 100%;
+  position: relative;
+  top: 6px;
+  left: -6px;
+  border-width: thin;
+  font-weight: 300;
+  }
+
+  svg{
+  margin-right: 7px;
+  }
+  .clock{
+  display: flex;
+  float:right;
+  padding: 14px;
+  color:var(--Soft_blue);
+  }
+  .green{
+  display: flex;
+  float:left;
+  padding: 14px;
+  color:var(--Cyan);
+  }
+  hr{
+  width: 90%;
+  border-style: solid;
+  border-color:var(--line);
+  }
+  footer{
+  color: var(--White);
+  font-size: var(--fontSize);
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
